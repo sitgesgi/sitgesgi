@@ -7,8 +7,6 @@ description: L’administració local es reunirà mensualment amb el sector
 pubDate: 2023-04-14T15:59:28.178Z
 image: /uploads/foto-reunio-ajsitges-370x208.jpg
 ---
-[![Es presenta el pla d’actuació 2021 a la taula de treball de venda ambulant no autoritzada](/uploads/foto-reunio-ajsitges.jpg)](/uploads/foto-reunio-ajsitges.jpg)
-
 L’administració local es reunirà mensualment amb el sector comercial per atendre les seves inquietuds i fer el seguiment del pla d’actuació de la venda ambulant presentant avui a la taula de treball. El Govern aposta per un Pla d’Actuació que aborda el fenomen de forma integral i transversal, amb la participació de diferents regidories i àrees de l’Ajuntament, i amb la col·laboració del sector comercial.
 
 L’objectiu és generar aliances també amb administracions superiors. La taula de seguiment de la venda ambulant no autoritzada s’ha trobat avui divendres.
