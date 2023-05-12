@@ -1,4 +1,4 @@
 ---
 title: Alcaldable
-image: /uploads/alcaldable.png
+image: /uploads/candidat.png
 ---
