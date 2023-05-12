@@ -1,4 +1,4 @@
 ---
 title: Sitges
-image: /uploads/sitges-free.jpg
+image: /uploads/sin-título-1.png
 ---
