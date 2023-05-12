@@ -1,0 +1,48 @@
+backend:
+  name: git-gateway
+  branch: master
+
+publish_mode: editorial_workflow
+
+media_folder: "/public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "post"
+    label: "Publicaciones"
+    folder: "/src/content/post"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Títol", name: "title", widget: "string" }
+      - { label: "Descripció", name: "description", widget: "text" }
+      - { label: "Data de publicació", name: "pubDate", widget: "datetime" }
+      - { label: "Imatge de portada", name: "image", widget: "image" }
+      - { label: "Contingut", name: "body", widget: "markdown" }
+
+  - name: "cover"
+    label: "Portades"
+    folder: "/src/content/cover"
+    create: true
+    fields:
+      - { label: "Títol", name: "title", widget: "string" }
+      - { label: "Imatge", name: "image", widget: "image" }
+
+  - name: "highlight"
+    label: "Destacats"
+    folder: "/src/content/highlight"
+    create: true
+    fields:
+      - { label: "Títol", name: "title", widget: "string" }
+      - { label: "Enllaç", name: "link", widget: "string" }
+
+  - name: "member"
+    label: "Llista"
+    folder: "/src/content/member"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Nom", name: "title", widget: "string" }
+      - { label: "Número", name: "number", widget: "number" }
+      - { label: "Descripció", name: "description", widget: "text" }
+      - { label: "Imatge", name: "image", widget: "image" }

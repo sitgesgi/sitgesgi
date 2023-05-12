@@ -1,0 +1,95 @@
+---
+import Main from "@src/layouts/Main.astro";
+---
+
+<Main>
+  <section class="col wfull">
+    <h1>Manifest</h1>
+
+    <img src="/manifest-bg.jpg" alt="Sitges" />
+
+    <p>
+      Sitges GI (Sitges Grup Independent) som un grup de persones que estimem
+      Sitges i que hem fet possible un nou projecte polític per al nostre poble,
+      que ja és una alternativa política real i ferma. El nostre és un projecte
+      engrescador, que pretén il·lusionar a tots i cadascun dels sitgetans i
+      sitgetanes.
+
+      <ul>
+        <li>
+          Ens definim com a partit transversal, obert a totes les sensibilitats
+          i que té Sitges com a nexe i causa comuna.
+        </li>
+        <li>
+          Volem un Sitges de qualitat i plural, on totes les persones puguin
+          viure i realitzar les seves activitats en convivència, fent realitat
+          el creixement econòmic, social i cultural.
+        </li>
+        <li>
+          Anhelem un Sitges modern, estructural i amb ambició de futur, que al
+          mateix temps conservi les seves essències, festes i tradicions.
+        </li>
+        <li>
+          Creiem que és molt important escoltar els ciutadans, però escoltar-los
+          de debò. No n’hi ha prou en fomentar la participació a través de grans
+          campanyes d’imatge si després les decisions que s’acaben prenent van
+          en contra del sentir d’una part important de la població. La felicitat
+          personal i de partit no pot passar mai per davant de la felicitat
+          col·lectiva.
+        </li>
+        <li>
+          Creiem que s’han d’imposar la racionalitat i el sentit comú. Com? A
+          través del treball pragmàtic, el que busca el camí més curt per a
+          cobrir les necessitats reals que necessita el Sitges del segle XXI,
+          sense deixar de banda el futur. Volem aportar propostes constructives,
+          propostes realitzables, propostes que sumin i que respongui a les
+          necessitats reals dels sitgetans i les sitgetanes.
+        </li>
+        <li>
+          Som conscients del difícil moment que viuen moltes persones properes a
+          nosaltres degut a la delicada situació econòmica imperant i creiem que
+          la classe política, com a gestora dels interessos dels ciutadans, ha
+          de ser la primera en donar exemple.
+        </li>
+      </ul>
+
+      Per tot plegat, som un partit que estén la mà a tothom qui vulgui
+      unir-s’hi. Necessitem persones com tu, aquest és també el teu projecte.
+      Vine i participa-hi, perquè som… <strong>Gent de Sitges per Sitges</strong>.
+    </p>
+  </section>
+
+  <style>
+    section {
+      max-width: var(--media-lg);
+      gap: 4em;
+      padding: 4em 1em;
+
+      @media (max-width: 720px) {
+        gap: 2em;
+        padding: 2em;
+      }
+    }
+
+    h1 {
+      border-left: 6px solid var(--accent) !important;
+      padding: 2rem;
+
+      @media (max-width: 720px) {
+        padding: 1rem;
+      }
+    }
+
+    img {
+      width: 100%;
+      aspect-ratio: 16/9;
+      border-radius: 0.25em;
+      box-shadow: 0 5px 20px hsl(var(--base-500-hsl), 0.4);
+    }
+
+    li {
+      list-style: inside;
+      padding-bottom: 1em;
+    }
+  </style>
+</Main>

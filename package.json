@@ -1,0 +1,21 @@
+{
+  "name": "sitgesgi-cms",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "dev:host": "astro dev --host",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^0.17.2",
+    "@astrojs/rss": "^2.1.1",
+    "@astrojs/sitemap": "^1.1.0",
+    "astro": "^2.0.18",
+    "postcss-each": "^1.1.0",
+    "postcss-preset-env": "^8.0.1"
+  }
+}

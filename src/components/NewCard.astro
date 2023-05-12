@@ -1,0 +1,66 @@
+---
+import FormattedDate from "@components/FormattedDate.astro";
+
+const { post } = Astro.props;
+const { slug, data } = post;
+const { title, description, pubDate, image } = data;
+---
+
+<article class="col">
+  <a class="col full" href={`/noticies/${slug}`}>
+    <img class="wfull" src={image} alt={title} />
+
+    <main class="col wfull">
+      <small><FormattedDate date={pubDate} /></small>
+      <h3><b>{title}</b></h3>
+      <p>{description}</p>
+    </main>
+  </a>
+</article>
+
+<style>
+  article {
+    width: calc(100% / 3 - 1em);
+    background-color: var(--base);
+    border: 1px solid var(--base-100);
+    border-bottom: 4px solid var(--accent) !important;
+    border-radius: .25em;
+    box-shadow: 0 5px 20px hsl(var(--base-500-hsl), 0.4);
+    overflow: hidden;
+    
+    @media (max-width: 720px) {
+      width: calc(100% / 2 - 1em);
+      margin-bottom: 0.5em;
+      border-width: 2px;
+    }
+
+    & img {
+      aspect-ratio: 4/3;
+      clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    }
+
+    & main {
+      padding: 1em;
+      z-index: 1;
+
+      @media (max-width: 720px) {
+        padding: 0.5em;
+      }
+    }
+
+    & small {
+      color: var(--accent);
+    }
+
+    & h3 {
+      font-size: var(--font-sm);
+      margin-top: 0.25em;
+    }
+
+    & p {
+      color: var(--base-700);
+      font-size: var(--font-xs);
+      margin-top: 1em;
+    }
+  }
+</style>

@@ -1,0 +1,31 @@
+---
+import { getCollection } from "astro:content";
+import HighlightCard from "@components/HighlightCard.astro";
+
+const highlights = await getCollection("highlight");
+---
+
+<section class="col wfull">
+  <main class="row jcenter wrap wfull">
+    {highlights.map((highlight) => <HighlightCard highlight={highlight} />)}
+  </main>
+</section>
+
+<style>
+  section {
+    max-width: var(--media-lg);
+    padding: 4em 1em;
+
+    @media (max-width: 720px) {
+      padding: 2em 1em;
+    }
+  }
+
+  main {
+    gap: 1em;
+
+    @media (max-width: 720px) {
+      gap: 0.5em;
+    }
+  }
+</style>

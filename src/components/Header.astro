@@ -1,0 +1,78 @@
+---
+import { getCollection } from "astro:content";
+
+const covers = (await getCollection("cover")).reverse();
+---
+
+<header class="wfull">
+  <ul class="slider scrollbar snap" horizontal>
+    {
+      covers.map(({ data }) => (
+        <li class="full">
+          <article
+            class="col fcenter full"
+            style={`background-image: url(${data.image})`}
+          >
+            <h1>{data.title}</h1>
+          </article>
+        </li>
+      ))
+    }
+  </ul>
+</header>
+
+<script defer>
+  const slider = document.querySelector(".slider");
+  const slideTime = 5000;
+  const maxSlide = 3;
+  let countSlide = 0;
+
+  function slideOne() {
+    slider?.scrollBy({ left: slider.clientWidth, behavior: "smooth" });
+    countSlide++;
+  }
+
+  function resetSlide() {
+    slider?.scrollTo({ left: 0, behavior: "smooth" });
+    countSlide = 0;
+  }
+
+  setInterval(() => {
+    if (countSlide === maxSlide) resetSlide();
+    else slideOne();
+  }, slideTime);
+</script>
+
+<style>
+  header {
+    background: url("/banner-bg.svg") no-repeat center;
+    background-size: cover;
+    border-bottom: 1px solid var(--base-100);
+  }
+
+  ul {
+    min-height: 30vw;
+
+    @media (max-width: 720px) {
+      min-height: 50vw;
+    }
+  }
+
+  article {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 120% auto;
+    background-blend-mode: multiply;
+    padding: 2em;
+
+    @media (max-width: 720px) {
+      background-size: 170% auto;
+    }
+
+    & h1 {
+      position: absolute;
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+</style>

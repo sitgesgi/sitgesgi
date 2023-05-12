@@ -1,0 +1,13 @@
+---
+const { date } = Astro.props;
+---
+
+<time datetime={date.toString()}>
+  {
+    date.toLocaleDateString("es-ES", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    })
+  }
+</time>

@@ -1,0 +1,59 @@
+---
+import Main from "@src/layouts/Main.astro";
+---
+
+<Main>
+  <section class="col wfull">
+    <h1>
+      <strong>Sitges GI</strong>
+      <br />
+      <small>Sitges Grup Independent</small>
+    </h1>
+
+    <img src="/sitgesgi-bg.jpg" alt="Sitges" />
+
+    <p>
+      Som un grup de persones que estimem Sitges i que hem fet possible un nou
+      projecte polític per al nostre poble. Un projecte engrescador, que pretén
+      il·lusionar a tots i cadascun dels sitgetans i sitgetanes.
+      <br /><br />
+      Ens definim com a partit transversal, obert a totes les sensibilitats i que
+      té Sitges com a nexe i causa comuna. Per tot plegat, som un partit que estén
+      la mà a tothom qui vulgui unir-s’hi.
+      <br /><br />
+      Necessitem persones com tu, aquest és també el teu projecte. Vine i participa-hi,
+      perquè tan sols som…
+      <br />
+      <strong>...Gent de Sitges per Sitges</strong>
+    </p>
+  </section>
+</Main>
+
+<style>
+  section {
+    max-width: var(--media-lg);
+    gap: 4em;
+    padding: 4em 1em;
+    
+    @media (max-width: 720px) {
+      gap: 2em;
+      padding: 2em;
+    }
+  }
+
+  h1 {
+    border-left: 6px solid var(--accent) !important;
+    padding: 2rem;
+
+    @media (max-width: 720px) {
+      padding: 1rem;
+    }
+  }
+
+  img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 0.25em;
+    box-shadow: 0 5px 20px hsl(var(--base-500-hsl), 0.4);
+  }
+</style>

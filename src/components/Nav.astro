@@ -1,0 +1,196 @@
+---
+import Menu from "@components/icons/Menu.astro";
+
+const currentYear = new Date().getFullYear();
+---
+
+<nav class="row jcenter wfull">
+  <main class="row jbetween acenter wfull">
+    <aside class="row acenter">
+      <a href="/">
+        <img src="/logo-blue.svg" alt="Sitges Grup Independent" />
+      </a>
+
+      <ul class="menu row">
+        <li>
+          <a href="/">Inici</a>
+        </li>
+        <li>
+          <a href="/noticies">Noticies</a>
+        </li>
+        <li tabindex="0">
+          <label>Qui som</label>
+          <ul>
+            <li>
+              <a href="/sitgesgi">Sitges GI</a>
+            </li>
+            <li>
+              <a href="/comite-executiu">Comité executiu</a>
+            </li>
+            <li>
+              <a href="/estatuts">Estatuts</a>
+            </li>
+            <li>
+              <a href="/manifest">Manifest</a>
+            </li>
+          </ul>
+        </li>
+        <li tabindex="0">
+          <label>Eleccions {currentYear}</label>
+          <ul>
+            <li>
+              <a href="/llista">Candidatura</a>
+            </li>
+            <li>
+              <a href="/programa-electoral">Programa electoral</a>
+            </li>
+          </ul>
+        </li>
+        <!-- <li>
+          <a href="/contacte">Contacte</a>
+        </li> -->
+      </ul>
+    </aside>
+
+    <span class="mobileMenu">
+      <Menu />
+    </span>
+
+    <a class="contact" href="mailto:info@sitgesgi.cat"
+      ><b>info@sitgesgi.cat</b></a
+    >
+  </main>
+</nav>
+
+<script defer>
+  const menuBtn = document.querySelector(".mobileMenu");
+  const menu = document.querySelector(".menu");
+
+  menuBtn.addEventListener("click", () => {
+    menu.classList.toggle("visible");
+  });
+</script>
+
+<style>
+  nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: var(--base);
+    border-bottom: 1px solid var(--base-100);
+    padding: 0 2em;
+    z-index: 99;
+
+    @media (max-width: 720px) {
+      padding: 0 1em;
+    }
+  }
+
+  main {
+    max-width: var(--media-xl);
+  }
+
+  aside {
+    gap: 2em;
+  }
+
+  ul {
+    overflow-y: auto;
+    transition: 150ms;
+
+    @media (max-width: 720px) {
+      position: absolute;
+      top: 100%;
+      right: -100%;
+      width: 100%;
+      height: calc(100vh - 86px);
+      flex-direction: column !important;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    & label {
+      cursor: pointer;
+      padding: 2em 1em;
+
+      @media (max-width: 720px) {
+        padding: 1em;
+      }
+    }
+  }
+
+  .visible {
+    right: 0;
+    opacity: 1;
+    pointer-events: all;
+    background-color: var(--base);
+    border-bottom: 8px solid var(--accent);
+
+    & li {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    & ul {
+      position: inherit;
+      width: 100%;
+      height: auto;
+      background-color: transparent;
+      opacity: 1;
+      padding-left: 1em;
+    }
+  }
+
+  li {
+    display: flex;
+    transition: 150ms;
+
+    & a {
+      padding: 2em 1em;
+
+      @media (max-width: 720px) {
+        padding: 1em;
+      }
+    }
+
+    & ul {
+      position: absolute;
+      top: 100%;
+      background-color: var(--base);
+      border: 1px solid var(--base-100);
+      opacity: 0;
+      pointer-events: none;
+      transition: 150ms;
+
+      & a {
+        width: 100%;
+        padding: 1em;
+      }
+    }
+
+    &:hover {
+      background-color: hsl(var(--accent-hsl), 0.1);
+
+      & ul {
+        opacity: 1;
+        pointer-events: all;
+      }
+    }
+  }
+
+  span {
+    display: none;
+  }
+
+  @media (max-width: 720px) {
+    span {
+      display: inherit;
+      padding: 2em 0;
+    }
+
+    .contact {
+      display: none !important;
+    }
+  }
+</style>
