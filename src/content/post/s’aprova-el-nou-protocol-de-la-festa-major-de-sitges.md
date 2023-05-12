@@ -4,7 +4,7 @@ description: En la sessió del Ple d’abril de 2023 ha prosperat, per unanimita
   l’aprovació del Protocol de Festa Major que, com a base, actualitza l’aprovada
   l’any 2006, la qual va ser modificada per darrer cop al Ple municipal de 31 de
   maig de 2010.
-pubDate: 2023-05-12T20:15:59.108Z
+pubDate: 2023-04-28T20:15:59.108Z
 image: /uploads/whatsapp-image-2023-05-12-at-22.17.43.jpeg
 ---
 En la sessió del Ple d’abril de 2023 ha prosperat, per unanimitat, l’aprovació del Protocol de Festa Major que, com a base, actualitza l’aprovada l’any 2006, la qual va ser modificada per darrer cop al Ple municipal de 31 de maig de 2010.
