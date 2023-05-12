@@ -12,4 +12,27 @@
       box-shadow: 0 5px 20px hsl(var(--base-500-hsl), 0.4);
     }
   }
+
+  ol > li {
+        list-style: decimal;
+        padding-bottom: 1em;
+        margin-left: 1em;
+      }
+
+      ul > li {
+        list-style: disc;
+        padding-bottom: 1em;
+        margin-left: 1em;
+      }
+
+      li {
+        &::marker {
+          color: var(--accent);
+          font-weight: bold;
+        }
+
+        & li {
+          padding: 0.5em 0;
+        }
+      }
 </style>

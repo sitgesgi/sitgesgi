@@ -7,7 +7,7 @@ const isPreview = !url.includes("noticies");
 const maxPostsPreview = 6;
 
 const posts = (await getCollection("post")).sort(
-  (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 
 const limitedPosts = isPreview ? posts.slice(0, maxPostsPreview) : posts;
