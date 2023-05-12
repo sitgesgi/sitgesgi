@@ -1,5 +1,5 @@
 ---
-title: Manifest
-link: https://sitgesgi.netlify.app/manifest/
+title: Candidatura 2023
+link: https://www.sitgesgi.com/llista/
 image: /uploads/sitges.jpg
 ---
