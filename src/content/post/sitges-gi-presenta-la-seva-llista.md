@@ -2,7 +2,7 @@
 title: Sitges GI presenta la seva llista
 description: Sitges GI ha presentat la candidatura que acompanya David Martínez
   Lluís, alcaldable de la formació.
-pubDate: 2023-05-12T20:09:12.454Z
+pubDate: 2023-03-26T20:09:12.454Z
 image: /uploads/whatsapp-image-2023-05-12-at-22.08.48.jpeg
 ---
 Sitges GI ha presentat la candidatura que acompanya David Martínez Lluís, alcaldable de la formació. Els jardins d’El Retiro han acollit l’acte, en el qual la formació ha desvetllat els cinc grans eixos que la formació defensa de cara a les municipals del 28M: la millora dels barris, repensar l’Ajuntament, un Sitges de prosperitat, compliment dels objectius de l’Agenda 2030 i un Sitges per viure-hi.
