@@ -5,9 +5,24 @@ const currentYear = new Date().getFullYear();
 ---
 
 <Main>
-  <section class="col fcenter full">
+  <section class="col fcenter wfull">
     <h1>Programa electoral {currentYear}</h1>
-    <p>Pròximament</p>
+    <p>Descarrega el nostre <strong>Programa Electoral {currentYear}</strong> de clicant en qualsevol dels següents enllaços</p>
+
+    <div class="pdf col acenter wfull">
+      <a
+        role="button"
+        href="/SITGESGI_programa-electoral-2023_catala.pdf" target="_blank">Català</a
+      >
+      <a
+        role="button"
+        href="/SITGESGI_programa-electoral-2023_castellano.pdf" target="_blank">Castellà</a
+      >
+      <!-- <a
+        role="button"
+        href="/SITGESGI_programa-electoral-2023_english.pdf" target="_blank">Anglès</a
+      > -->
+    </div>
   </section>
 </Main>
 
@@ -25,5 +40,14 @@ const currentYear = new Date().getFullYear();
   h1,
   p {
     text-align: center;
+  }
+
+  .pdf {
+    gap: 1em;
+
+    & a {
+      max-width: 250px;
+      width: 80%;
+    }
   }
 </style>
