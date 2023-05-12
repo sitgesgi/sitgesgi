@@ -10,5 +10,5 @@ description: >-
 
 
   Actualment, soc professor col·laborador a diverses universitats i de forces i cossos de seguretat en l'àmbit nacional i internacional.
-image: /uploads/istockphoto-1337144146-170667a.jpg
+image: /uploads/david-garriga.jpg
 ---
