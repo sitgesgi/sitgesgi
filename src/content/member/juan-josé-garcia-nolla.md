@@ -22,5 +22,5 @@ description: >-
 
 
   Per tot això que he exposat, he decidit involucrar-me en la política d’aquesta ciutat, acompanyat per un grup de persones a les que admiro i respecto profundament. Amb ells estic convençut que formarem un gran equip, amb l’objectiu de millorar-ne les condicions actuals diferents àmbits, per fer més acollidora aquesta ciutat, si és possible, a la qual li dec tantes coses.
-image: /uploads/istockphoto-1337144146-170667a.jpg
+image: /uploads/juan-jose.jpg
 ---
