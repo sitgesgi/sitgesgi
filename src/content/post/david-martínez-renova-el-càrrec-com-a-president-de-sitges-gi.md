@@ -3,7 +3,7 @@ title: David Martínez renova el càrrec com a president de Sitges GI
 description: L’Assemblea General de Sitges GI celebrat aquest dijous al vespre,
   ha reescollit a David Martínez Lluís com a president del grup municipal fins
   al 2025.
-pubDate: 2023-04-14T15:54:36.843Z
+pubDate: 2021-06-11T15:54:36.843Z
 image: /uploads/foto-David-M-1024x654.jpg
 ---
 L’Assemblea General de Sitges GI celebrat aquest dijous al vespre, ha reescollit a David Martínez Lluís com a president del grup municipal fins al 2025. Martínez s’ha mostrat molt satisfet del bon estat de salut del grup municipal que no ha parat de créixer en els darrers anys. Tal ha estat el creixement que actualment Sitges GI compta amb un comitè executiu format per 23 persones.
