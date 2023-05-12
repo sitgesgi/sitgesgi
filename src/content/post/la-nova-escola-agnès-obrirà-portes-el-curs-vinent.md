@@ -4,7 +4,7 @@ description: Arriben bones notícies, ja que el pròxim 15 d’abril es donaran 
   acabades les obres de la nova Escola Agnès de Sitges. Per tant, un cop
   acabades es començaran els tràmits perquè entri en funcionament pel curs
   escolar 2021-2022.
-pubDate: 2023-04-14T15:56:48.646Z
+pubDate: 2021-09-01T15:56:48.646Z
 image: /uploads/WhatsApp-Image-2021-03-20-at-14.31.04-370x370.jpg
 ---
 Arriben bones notícies, ja que el pròxim 15 d’abril es donaran per acabades les obres de la nova Escola Agnès de Sitges. Per tant, un cop acabades, es començaran els tràmits perquè entri en funcionament pel curs escolar 2021-2022.
