@@ -4,7 +4,7 @@ title: David Martínez reelegit com a Cap de Llista per a les properes eleccions
 description: David Martínez Lluís tornarà a encapçalar la llista electoral de
   Sitges GI per a les pròximes eleccions municipals que tindran lloc aquest maig
   del 2023.
-pubDate: 2023-04-14T11:57:38.092Z
+pubDate: 2023-02-07T12:57:38.092Z
 image: /uploads/david-martinez-370x370.jpg
 ---
 David Martínez Lluís tornarà a encapçalar la llista electoral de Sitges GI per a les pròximes eleccions municipals que tindran lloc aquest maig del 2023. El candidat ha estat escollit per unanimitat a la darrera Assemblea General del grup municipal que va tenir lloc el passat dilluns, 25 d’abril.
